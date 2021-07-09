@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99d9014e-eb0f-4d1c-ac31-46441352c913">
+  <producedTypes>
+    <objectType typeId="c2446d2e-f495-4fe3-b64f-f095483729fc" valueTypeId="56662fc2-a208-4cf9-b1aa-04ae48ef26d3"/>
+    <refType typeId="15446330-b457-455b-b163-708773545812" valueTypeId="5d7fb355-7004-4185-a736-e6768c5050cb"/>
+    <selectionType typeId="e0465b99-2218-495b-90be-e6dbdea78d39" valueTypeId="113e6ca8-0d14-48d9-bfa9-a9cd4789fd2e"/>
+    <listType typeId="ca481731-695a-4dd1-9ebd-91bc9a62aadc" valueTypeId="de34cc1e-7e18-4646-a5c3-ea81dab44d2a"/>
+    <managerType typeId="e51359ea-b4b9-425c-b193-063f3d936ce2" valueTypeId="44f66526-cd43-4bd1-90ea-ab8960ae3ebb"/>
+  </producedTypes>
+  <name>Вопросы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Вопросы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="04a20fda-29ee-405d-8196-825f383e099b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10379722-2b85-4485-8d46-b79e32979561">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЭкзамена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

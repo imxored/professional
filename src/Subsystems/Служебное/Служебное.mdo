@@ -7,4 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <content>Role.Администратор</content>
+  <content>CommonForm.Тестирование</content>
+  <content>CommonForm.Администрирование</content>
+  <content>CommonModule.ОбновлениеВопросовОтветов</content>
 </mdclass:Subsystem>

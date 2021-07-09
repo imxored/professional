@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b9ec7b6-3a70-4fa6-977f-8578e3a37540">
+  <producedTypes>
+    <objectType typeId="08fae948-a18d-4c09-934e-d80079fe054e" valueTypeId="281ab79c-807b-4f31-96bb-55e569f03aa1"/>
+    <refType typeId="33e0c0f1-8e03-4e47-8e8b-8bbfe16074a0" valueTypeId="1ea606ef-da1a-43c6-84cc-ebfed073bae4"/>
+    <selectionType typeId="e467ec7a-2994-48ea-b4f9-91787765ae15" valueTypeId="0db750d0-f98c-4eed-abe4-9bb42a85080d"/>
+    <listType typeId="3def8c5d-44e8-403c-87ad-f3e8379c7162" valueTypeId="10d7bbdc-61e9-4ab7-b3b2-fb99260a4d34"/>
+    <managerType typeId="32169a2e-82af-4c13-bc26-c094742bbe22" valueTypeId="dc2b56a3-db74-4e7f-bdea-35867d8aa4b8"/>
+  </producedTypes>
+  <name>ВидыЭкзамена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды экзамена</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЭкзамена.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыЭкзамена.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="5ac0680b-4bfe-4d38-953a-4e5289e032ca">
+      <name>Платформа_83</name>
+      <description>Платформа 83</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -137,5 +137,15 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Служебное</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.РегистрыСведений</subsystems>
   <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.ОбновлениеВопросовОтветов</commonModules>
+  <commonForms>CommonForm.Тестирование</commonForms>
+  <commonForms>CommonForm.Администрирование</commonForms>
+  <catalogs>Catalog.Вопросы</catalogs>
+  <catalogs>Catalog.Ответы</catalogs>
+  <catalogs>Catalog.ВидыЭкзамена</catalogs>
+  <informationRegisters>InformationRegister.СтатистикаОтветов</informationRegisters>
+  <informationRegisters>InformationRegister.РезультатыТестирования</informationRegisters>
 </mdclass:Configuration>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3332873a-6673-4888-92de-a6d3a3a7b14c">
+  <producedTypes>
+    <selectionType typeId="35736b7d-b3b9-49df-9b5d-3ccda583b3f0" valueTypeId="98cf6a87-899e-4849-b032-a5e364072b82"/>
+    <listType typeId="2c8ebf3c-a3c2-4c4f-a776-f4b2899b9c2b" valueTypeId="335af63a-f78b-42d6-b93f-01b2ea1c60db"/>
+    <managerType typeId="dc91160d-da89-42da-9bf9-bbb61123a648" valueTypeId="2b231e9e-57ed-4714-9391-12cef408fa20"/>
+    <recordSetType typeId="e105784d-bb3b-40be-a1f5-1564b24aef05" valueTypeId="72ba9599-a878-4f77-ae4a-da5194c85ad7"/>
+    <recordKeyType typeId="8d0c3062-cbf7-4e5c-a418-e7cbc64b4ebc" valueTypeId="2255c269-25b4-42a0-8d32-1f04c3d07715"/>
+    <recordType typeId="5c4d7530-d8b2-4938-9816-7a20c9e2926f" valueTypeId="07cec776-f33a-49d2-9e2f-fd48aa56a9c8"/>
+    <recordManagerType typeId="922801d1-dd1c-43b0-a134-3dcf3fde7041" valueTypeId="930f3099-15a9-44f3-85ef-ff103cad94d1"/>
+  </producedTypes>
+  <name>СтатистикаОтветов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика ответов</value>
+  </synonym>
+  <comment>Хранение ответов подготовительного этапа</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ca6571d6-e0b8-44b2-98ac-8f6e5c936421">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fd7665d3-de62-4c97-a3b9-4138bea86944">
+    <name>Вопрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Вопросы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a96fe97c-850f-49ef-afc0-7b75074e3b2f">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Ответы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
