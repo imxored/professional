@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b07a63b-b6b2-4299-b0bf-0c333f5aab1e">
+  <producedTypes>
+    <objectType typeId="eaadfd6f-cc2e-4d6a-8596-dc51c720ed3d" valueTypeId="02482669-e48b-4c53-b582-0a7d3f4284f2"/>
+    <refType typeId="fa6239be-b5cd-4872-b966-ab90144400ae" valueTypeId="1f4f0e04-e6c4-425d-afb9-36f4fac333e5"/>
+    <selectionType typeId="af2627c3-7fce-49b0-bd0d-5bd2f2a9e578" valueTypeId="be976aa8-e00e-4889-9858-0ab75be9b10f"/>
+    <listType typeId="15d09e3c-54b9-4559-8b69-7a95b2fcf9e2" valueTypeId="0ffae4a9-37df-4ea9-a7d2-722916d4d9e8"/>
+    <managerType typeId="b12a4180-4031-4b11-b4a8-a0feb62c7786" valueTypeId="ece632f2-63f8-4841-a82f-828461a092a1"/>
+  </producedTypes>
+  <name>Разделы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Разделы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Разделы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.ВидыЭкзамена</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="744fd025-01d6-429e-b9aa-dc1014ccfc10">
+    <name>Ранг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ранг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

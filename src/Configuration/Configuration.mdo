@@ -141,11 +141,13 @@
   <subsystems>Subsystem.РегистрыСведений</subsystems>
   <roles>Role.Администратор</roles>
   <commonModules>CommonModule.ОбновлениеВопросовОтветов</commonModules>
+  <commonModules>CommonModule.ТестированиеСлужебный</commonModules>
   <commonForms>CommonForm.Тестирование</commonForms>
   <commonForms>CommonForm.Администрирование</commonForms>
   <catalogs>Catalog.Вопросы</catalogs>
   <catalogs>Catalog.Ответы</catalogs>
   <catalogs>Catalog.ВидыЭкзамена</catalogs>
+  <catalogs>Catalog.Разделы</catalogs>
   <informationRegisters>InformationRegister.СтатистикаОтветов</informationRegisters>
   <informationRegisters>InformationRegister.РезультатыТестирования</informationRegisters>
 </mdclass:Configuration>
