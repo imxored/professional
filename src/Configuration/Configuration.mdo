@@ -142,6 +142,8 @@
   <roles>Role.Администратор</roles>
   <commonModules>CommonModule.ОбновлениеВопросовОтветов</commonModules>
   <commonModules>CommonModule.ТестированиеСлужебный</commonModules>
+  <commonModules>CommonModule.Интеграция</commonModules>
+  <commonModules>CommonModule.Рейтинг</commonModules>
   <commonForms>CommonForm.Тестирование</commonForms>
   <commonForms>CommonForm.Администрирование</commonForms>
   <catalogs>Catalog.Вопросы</catalogs>

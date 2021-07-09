@@ -10,4 +10,7 @@
   <content>CommonForm.Тестирование</content>
   <content>CommonForm.Администрирование</content>
   <content>CommonModule.ОбновлениеВопросовОтветов</content>
+  <content>CommonModule.Рейтинг</content>
+  <content>CommonModule.Интеграция</content>
+  <content>CommonModule.ТестированиеСлужебный</content>
 </mdclass:Subsystem>

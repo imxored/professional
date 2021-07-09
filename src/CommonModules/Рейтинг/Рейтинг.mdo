@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e206aa35-7226-4a00-a821-993df4c4ed43">
+  <name>Рейтинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рейтинг</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
